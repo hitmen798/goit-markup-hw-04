@@ -148,7 +148,10 @@ p {
   /* background-color: rgba(46, 47, 66, 0.7); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  /* background-size: auto; */
+  max-width: 1440px;
+  margin: 0 auto;
+  background-size: cover;
 }
 .hero-container {
   display: flex;
@@ -330,6 +333,31 @@ p {
 }
 .team-social-icon {
 }
+.castomers {
+  padding: 130px 0 120px;
+  background-color: var(--white-color);
+}
+.castomers-container {
+}
+.castomers-title {
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+}
+.castomers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.castomers-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.castomers-link {
+}
+.castomers-icon {
+  margin: 16px 32px;
+}
 .section {
   padding: 96px 0 120px 0;
 }
@@ -405,7 +433,6 @@ p {
 .section-items-item:hover,
 .section-items-item:focus {
   background: #ffffff;
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -470,4 +497,41 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.footer-container {
+  display: flex;
+}
+.footer-container-2 {
+}
+.footer-title {
+  /* font-family: "Roboto"; */
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  font-size: 16px;
+  line-height: 1,5;
+  /* letter-spacing: 0.02em; */
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-item {
+  height: 40;
+  width: 40;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.footer-icon {
+  width: 24px;
+  height: 24px;
 }
