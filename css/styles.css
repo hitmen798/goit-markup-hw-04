@@ -212,6 +212,17 @@ p {
 }
 .info-item {
 }
+.info-block {
+  background: #f4f4fd;
+  border-radius: 4px;
+}
+.info-block-link {
+}
+.link {
+}
+.info-block-icon {
+  margin: 24px 100px;
+}
 .info-subtitle {
   /* font-family: 'Roboto';
     font-style: normal; */
@@ -221,8 +232,8 @@ p {
   letter-spacing: 0.02em;
   /* color: #2E2F42; */
   margin: 0;
-
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 .info-text {
   /* font-family: 'Roboto';
@@ -500,6 +511,7 @@ p {
 }
 .footer-container {
   display: flex;
+  gap: 120px;
 }
 .footer-container-2 {
 }
@@ -508,7 +520,7 @@ p {
   /* font-style: normal; */
   /* font-weight: 500; */
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1, 5;
   /* letter-spacing: 0.02em; */
   color: #ffffff;
   padding-bottom: 16px;
